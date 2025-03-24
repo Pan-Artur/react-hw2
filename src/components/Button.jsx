@@ -1,5 +1,3 @@
-import "../styles/Components.module.scss";
-
 export const Button = ({ onClick }) => {
   const showMessage = () => {
     console.log("Кнопка була успішно клікнута!");

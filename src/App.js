@@ -3,6 +3,8 @@ import { Greeting } from "./components/Greeting";
 import { Message } from "./components/Message";
 import { Button } from "./components/Button";
 
+import "./Components.module.scss";
+
 function App() {
   const showMessage = () => {
     console.log("Обробник кліку був успішно спрацьований.");
